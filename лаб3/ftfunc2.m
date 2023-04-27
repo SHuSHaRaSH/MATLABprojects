@@ -1,0 +1,6 @@
+%% test function for Subtask 10
+function y = ftfunc2(w)
+    y = @(w)(-(pi/6)*abs(w) ...
+    + (pi/12)*abs(8-w) ...
+    + (pi/12)*abs(8+w)-0.39);
+end
